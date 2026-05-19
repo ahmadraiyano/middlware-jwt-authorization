@@ -30,8 +30,9 @@ const createLoginIntoDB = async (payload: { email: string, password: string }) =
     }
 
     const accessToken = jwt.sign(jwtPayload, config.secret as string, {expiresIn: "1d"})
+    const refreshToken = jwt.sign(jwtPayload, config.refresh_secret as string, {expiresIn: "1d"})
 
-    return {accessToken}
+    return {accessToken, refreshToken}
 }
 
 export const authService = {

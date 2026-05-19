@@ -94,3 +94,5 @@ method -> GET, time -> 19/05/2026 01:53:03 PM, URL -> /api/users
 method -> GET, time -> 19/05/2026 01:53:33 PM, URL -> /api/users
 
 method -> GET, time -> 19/05/2026 01:54:29 PM, URL -> /api/users
+
+method -> POST, time -> 19/05/2026 02:13:09 PM, URL -> /api/auth/login
