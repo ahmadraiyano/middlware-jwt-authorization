@@ -30,3 +30,17 @@ method -> GET, time -> 19/05/2026 11:54:01 AM, URL -> /api/users
 method -> GET, time -> 19/05/2026 11:54:57 AM, URL -> /api/users
 
 method -> GET, time -> 19/05/2026 11:55:06 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 12:06:54 PM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 12:11:51 PM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 12:13:37 PM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 12:15:33 PM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 12:17:34 PM, URL -> /api/users
+
+method -> POST, time -> 19/05/2026 12:21:37 PM, URL -> /api/auth/login
+
+method -> GET, time -> 19/05/2026 12:22:21 PM, URL -> /api/users
