@@ -5,7 +5,8 @@ import { pool } from "../db";
 
 const auth = () => {
     return async (req: Request, res: Response, next: NextFunction) => {
-        // console.log(req.headers.authorization);
+        try {
+            // console.log(req.headers.authorization);
         const token = req.headers.authorization
         if(!token){
             res.status(401).json({
@@ -32,7 +33,11 @@ const auth = () => {
                 message: "forbidden access"
             })
         }
+        req.user = decoded
         next()
+        } catch (error) {
+          next(error)  
+        }
     }
 }
 export default auth
