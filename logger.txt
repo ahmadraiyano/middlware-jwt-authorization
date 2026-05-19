@@ -4,3 +4,29 @@ method -> GET, time -> 1779167708465, URL -> /
 method -> GET, time -> 1779167737560, URL -> /users
 
 method -> GET, time -> 1779167768273, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:24:07 AM, URL -> /
+
+method -> GET, time -> 19/05/2026 11:24:21 AM, URL -> /
+
+method -> GET, time -> 19/05/2026 11:37:40 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:37:55 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:44:06 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:44:16 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:45:18 AM, URL -> /api/users
+
+method -> POST, time -> 19/05/2026 11:47:21 AM, URL -> /api/auth/login
+
+method -> GET, time -> 19/05/2026 11:49:28 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:50:52 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:54:01 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:54:57 AM, URL -> /api/users
+
+method -> GET, time -> 19/05/2026 11:55:06 AM, URL -> /api/users
